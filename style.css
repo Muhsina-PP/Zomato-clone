@@ -1,0 +1,648 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image-container{
+  width: 100%;
+  height: 335px;
+  position: relative;
+  overflow: hidden;
+  
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+ .header{
+  /* width:100%;
+  height: 420px; */
+  position: relative;
+}
+.nav{
+  font-weight: 200;
+  height: 50px;
+}
+.container{
+  width: 87%;
+  margin: auto;
+  
+}
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.logocontainer{
+  display: flex;
+  align-items: center;
+  /* margin-top: 0px; */
+}
+.logocontainer p{
+  padding: 5px;
+  font-weight: lighter;
+  font-size: 11px;
+  font-stretch: expanded;
+  color: white;
+  margin-top: 10px;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+  
+  
+}
+.nav ul li{
+  padding:0px 10px;
+  margin-right: 10px;
+  font-size:14px ;
+  font-weight: lighter;
+ 
+ 
+  
+}
+.nav ul li a{
+  color: inherit;
+  /* font-size: 17px; */
+  text-decoration: none;
+  /* font-weight: lighter; */
+}
+.header-section{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: white;
+}
+.zomato-logo{
+  width: 220px;
+}
+.container-header-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  flex-direction: column;
+}
+.header-body-content{
+  position: relative;
+  top: -50px;
+}
+.header-body-section-discover{
+  font-size: 30px;
+  font-stretch: extra-expanded;
+  margin: 30px 0;
+  color: white;
+}
+.search-container{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  max-width: 600px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.171);
+  
+}
+.detect-location{
+  color: rgb(228, 137, 137);
+  font-size: 15px;
+}
+.fa-caret-down{
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 10px;
+}
+.detect-location input{
+  border: none;
+  font-size: 11px;
+  font-stretch: extra-expanded;
+  width: 100px;
+  outline: none;
+}
+.search-items{
+  color: rgba(0, 0, 0, 0.226);
+ font-size: 15px;
+  
+}
+.line{
+  padding: 15px;
+}
+.search-items input{
+  font-size:11px ;
+  font-stretch: extra-expanded;
+  width: 400px;
+  max-width: 100%;
+  border: none;
+  padding: 5 10px;
+  outline: none;
+}
+/* image section 1 */
+.section-1{
+  margin-top: 30px;
+ 
+}
+.container-features{
+display: flex;
+justify-content: space-between;
+}
+.features{
+  overflow: hidden;
+  border-radius: 10px;
+  border: 0.5px solid rgb(236, 225, 225);
+  /* height: 130px; */
+ 
+}
+.feature-image{
+  height: 130px;
+  width: 420px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  
+}
+.feature-image img{
+  width: 100%;
+  background-position: 100px;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 100%; 
+  height: auto; 
+  position: absolute; 
+  
+}
+.features h3,
+.features p{
+  padding-left: 20px;
+  
+}
+.features:hover{
+  transform: scale(1.05);
+  transition: transform(0.5s);
+  cursor: pointer;
+}
+h3{
+  color: rgba(16, 15, 15, 0.881);
+  font-weight: 100;
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-stretch: extra-expanded;
+}
+p{
+  color: rgba(26, 24, 24, 0.648);
+  margin-top: 0;
+  font-size: 13px;
+  font-stretch: extra-expanded;
+}
+
+/* section 3 */
+/* collections styling */
+.section2-left h2{
+ font-size: 30px;
+ font-weight: lighter;
+ margin-top: 70px;
+}
+/* next line left part styling */
+.para3{
+  font-size: 14px;
+  font-weight: 100;
+  font-stretch: extra-expanded;
+  margin-top: -15px;
+
+}
+.section2-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section2-right{
+ align-self: flex-end;
+ 
+}
+/* next line right part styling */
+.para4{
+  color: rgb(228, 137, 137);
+}
+/* collections boxes */
+.boxes{
+  margin: 30px 60px;
+  display: flex;
+  margin-bottom: 90px;
+  justify-content: space-between; 
+}
+/* box styling */
+.box1{
+  width: 210px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+.box1 div{
+  position: absolute;
+  height: 25%;
+  background: linear-gradient(transparent,black);
+  display: flex;
+  align-items: flex-end;
+  bottom: 0px;
+  width: 100%;
+}
+/* elements inside box styling */
+
+.box1 div span:first-child{
+  display: inline-block;
+  color: white;
+  padding-left: 10px;
+  font-size: 0.9rem;
+  /* align-items: center; */
+  padding-bottom: 5px;
+
+}
+
+
+.box1 div span p{
+  color: white;
+  font-size: 11px;
+  /* margin: 0;
+  padding: 0; */
+  display: inline;
+  /* padding-bottom: 0; */
+}
+.box1 i{
+  color: white;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+/* box image styling */
+.box1 img{
+  height: 280px;
+  width: 210px;
+  object-fit: cover;
+}
+
+/* localities heading styling */
+.loc-para{
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 50px;
+  color: rgb(56,56,56);
+}
+
+.location-box {
+  margin-top: 0px;
+}
+  /* Grid container for the localities (matrix layout) */
+.matrix-container {
+  display: grid;/* Uses grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  grid-gap: 10px; /* Gap between cells */
+  width: 900px; /* Fixed width for the grid */
+  height: 100px; /* Auto height based on content */
+  background-color: white; /* Grid background color */
+  padding-left: 50px;
+}
+/* Styling for each individual locality item */
+.matrix-item {
+  background-color: white;
+  border: 1px solid #ccc; /* Optional: border around items */
+  display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  justify-content: flex-start; /* Align content to the top */
+  align-items: flex-start; /* Align content to the left */
+  padding: 10px;
+  border-radius: 7px;
+}
+/* Styling for the h3 (locality name) inside each matrix item */
+.matrix-item h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em; /* Larger font size for h3 */
+  font-weight: 50; /* Ensure h3 text is not bold */
+  color:black;
+}
+/* Styling for the paragraph (number of places) inside each matrix item */
+.matrix-item p {
+  margin: 5px 0 0 0; /* Add a small gap between h3 and p */
+  font-size: 0.8em; /* Normal font size for p */
+  color: rgb(73, 71, 71);
+}
+/* Styling for the "See more" item */
+.matrix-item1 {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-weight: normal;
+  
+}
+/* Styling for the h3 inside the "See more" item */
+.matrix-item1  h3{
+  font-weight: normal;
+  color: black;
+  
+}
+/* Styling for the right arrow icon */
+.fa-chevron-right{
+  position: absolute;
+  padding-left: 250px;
+  margin-top: 15px;
+  color: rgb(73, 71, 71);
+  font-size: 10px;
+}
+/* Styling for the down arrow icon in the "See more" item */
+.fa-chevron-down{
+  position: absolute;
+  padding-left: 60px;
+  margin-top: -20px;
+  color: rgb(73, 71, 71);
+  font-size: 11px;
+}
+.sec5{
+  display: flex;
+  margin: 90px 0;
+  padding: 40px 0;
+  justify-content: center;
+  background-color: rgb(255,248,248);
+}
+
+.flex{
+  display: flex;
+}
+/* 5th section */
+.contact{
+  width: 850px;
+  overflow: hidden;
+}
+.contact img{
+  width: 400px;
+  height: 350px;
+  padding-right: 50px;
+  margin-top: 70px;
+}
+.address{
+  width: 450px;
+  margin-top: 60px;
+  padding-left: 0px;
+  /* height: 150px; */
+}
+
+/* get the zomato app styling */
+.address h2{
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: rgb(34,34,34);
+}
+/* next line styling */
+.address p{
+  padding-bottom:10px ;
+  font-size: 0.84rem;
+  color:rgb(92,91,91);
+}
+.radio{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 230px;
+  padding-bottom: 20px;
+}
+.radio label{
+  font-size: 0.9rem;
+  color: rgb(49,49,49);
+}
+.radio [type="radio"]{
+  accent-color: rgb(255,92,92);
+}
+.email{
+  position: relative;
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Vertically aligns items */
+  gap: 5px; /* Space between input and button */
+}
+/* textfield for email */
+.email input{
+  height: 40px;
+  border-radius: 5px;
+  width: 250px;
+  border: 1px solid rgb(184,183,183);
+  outline: rgb(255,92,92);
+  font-size: 1rem;
+  padding-left: 15px;
+  /* display: flex; */
+}
+/* as email placeholder  */
+.place{
+  position: absolute;
+  font-size: 0.9rem;
+  left: 15px;
+  top: 13px;
+  color: grey;
+  font-weight: lighter;
+  padding-bottom:5px;
+}
+/* share link button */
+.email button{
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid rgb(253,104,104);
+  background-color: rgb(253,104,104);
+  font-size: 0.9rem;
+  color: white;
+}
+.download {
+  /* !imporrtant for not overriding */
+  font-size: 0.7rem !important; 
+  margin-top: 20px !important;
+  margin-bottom: 0 ;
+  color: rgb(186, 179, 179) !important;
+  text-align: left;
+}
+.app {
+  gap: 10px; /* Add space between images */
+  /* margin-bottom: 10px;  */
+  display: flex;
+  /* margin-top: 5px; */
+  position: relative;
+  top: -65px;
+}
+/* download app image */
+.app img{
+  width: 165px;
+  height: 33px;
+}
+/* 6th part heading styling */
+.sec6 h2{
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 50px;
+  color: rgb(56,56,56);
+  margin-top: -80px;
+}
+.top-picks-list{
+  margin-top: -20px;
+}
+/* list box styling */
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(159, 157, 157);
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-color: rgb(223, 223, 225);
+}
+/* list elemengs styling */
+.list-item h3 {
+  margin: 10px;
+  font-size: 1em; /* Larger font size for h3 */
+  font-weight: 50; /* Ensure h3 text is not bold */
+  color:rgb(63, 62, 62);
+  
+}
+.fa-angle-down{
+  color: rgb(73, 71, 71);
+  font-size: 11px;
+}
+
+
+/*Styling for Final Footer Section */
+.final-container{
+  margin-top: 50px;
+  width: 100%;
+  height:550px;
+}
+/* Main block inside the footer */
+.final-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-right: -150px;
+  /* margin: 0; */
+}
+/* zomato logo styling */
+.black-logo{
+  width: 110px;
+  height: 25px;
+}
+/* Flag image styling */
+.flagimage{
+  width:30px;
+  height: 13px;
+  padding-right: 15px;
+}
+.flagimage img{
+  width: 100%;
+  height: 100%;
+}
+/* Footer option section (Country and Language) */
+.footeroptionsection {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 5px;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px; /* Adds spacing between the elements */
+  border-radius: 5px;
+}
+.boxtext{
+  align-items: center;
+  padding-top: 10px;
+  font-size: 13px;
+}
+/* Language and country section alignment */
+.footerlanguage-country{
+  display: flex;
+  margin-right: 160px;
+}
+/* Globe icon styling */
+.iconlobeimage{
+  padding-right: 15px;
+}
+/* Chevron down arrow */
+.arr-down{
+padding-left: 80px;
+padding-top: 23px;
+font-size: 9px;
+color: rgba(0, 0, 0, 0.463);
+}
+.footeroptionsection p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Footer menu with links */
+.footer-menu{
+display: flex;
+justify-content: space-between;
+padding-top: 30px;
+padding-left: 50px;
+padding-right: 50px;
+margin: 0;
+}
+/* App download images */
+.downloadapp{
+width: 100%;
+display: block;
+}
+.downloadapp img{
+width: 100px;
+}
+/* Styling for footer menu items */
+.footer-menu ul{
+padding: 0;
+list-style: none;
+}
+.footer-menu h3{
+font-weight: 500;
+letter-spacing: 1px;
+font-size: 12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Links inside the footer menu */
+.footer-menu a{
+color: rgb(128,121,121);
+text-decoration: none;
+font-size: 10px;
+font-weight: 200;
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+line-height: 2;
+}
+/* Social media links styling */
+.socialmedialinks{
+margin-bottom: 10px;
+font-size: 17px;
+}
+.horizontalLine{
+background-color: black;
+}
+/* Custom line separating the footer */
+.custom-line {
+border: none;          /* Remove default border */
+border-top: .8px solid #a7a1a1; /* Set line style */
+width: 90%;            /* Set line width */
+margin: 20px auto;     /* Center the line */
+}
+/* Footer text styling */
+.final-para{
+padding-left: 50px;
+padding-right: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(128,121,121);
+font-size: 9.5px;
+font-weight: 200;
+}
